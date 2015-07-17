@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <SDK/SDK.h>
 
 @interface AppDelegate ()
 
