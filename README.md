@@ -2,16 +2,15 @@ iOS-SDK
 
 AXABeacon SDK
 
-一.概述
+一.Description
+SDK should conform to the iBeacon Technology of Apple, provide API for scan, manage or simulate iBeacon device. 
 
-开发包（SDK）符合苹果的iBeacon技术，提供了扫描或管理Beacon设备或模拟iBeacon设备的API。你可以访问AXAET官网（http://www.axaet.com）了解更多信息.
+More information, please visit www.axaet.com
+二.Development
+1. Import SDK into the project, and decompress SDK file. Drag SDK. Framework to the project, but not the entire file. 
 
-二.开发
+2.After drag to the project, it will pop up the following dialong box, select "Copy items into destination group's folder(if needed)", and click “Finish”.
 
-1.将SDK的框架目录导入到您的工程中 将下载的SDK文件解压，拖动里面的SDK.Framework到工程中，而不是整个文件.
+3. Detail instruction, please refer to demo in the decompression bag. 
 
-2.拖到工程中后，弹出以下对话框，勾选"Copy items into destination group's folder(if needed)"，并点击“Finish“按钮
-
-3.整个解压包包含演示demo，请参考。
-
-4.特别强调，iBeacon监测要在info.plist文件中添加，NSLocationAlwaysUsageDescription key值 或者 NSLocationWhenInUseUsageDescription key值。
+4. Attention: iBeacon monitoring should add NSLocationAlwaysUsageDescription key value or NSLocationWhenInUseUsageDescription key value in the info.plist file.
