@@ -9,9 +9,9 @@ More information, please visit www.axaet.com
 
 二.Development
 1. Import SDK into the project, and decompress SDK file. Drag SDK. Framework to the project, but not the entire file.
-2. 
+
 2. After drag to the project, it will pop up the following dialong box, select "Copy items into destination group's folder(if needed)", and click “Finish”.
-3. 
+ 
 3. Detail instruction, please refer to demo in the decompression bag. 
-4. 
+ 
 4. Attention: iBeacon monitoring should add NSLocationAlwaysUsageDescription key value or NSLocationWhenInUseUsageDescription key value in the info.plist file.
